@@ -1,6 +1,6 @@
 {
   "name": "datasportjs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vhratts/datasportjs.git"
@@ -10,7 +10,7 @@
   "types": "types/datasportjs.d.ts",
   "scripts": {
     "build": "tsc && babel src --out-dir dist",
-    "start": "node dist/js/SportradarAPI.js",
+    "start": "node dist/js/datasport.js",
     "test": "test.js"
   },
   "keywords": [

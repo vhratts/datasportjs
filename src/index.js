@@ -1,4 +1,4 @@
-import { SportradarAPI } from "./libs/SportRadar/SportradarAPI.js";
+import { SportradarAPI } from "./libs/js/SportRadar/SportradarAPI.js";
 
 export {
     SportradarAPI
