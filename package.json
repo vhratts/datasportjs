@@ -6,8 +6,11 @@
     "url": "git+https://github.com/vhratts/datasportjs.git"
   },
   "description": "Definitive lib for analyze and build bets",
-  "main": "src/index.js",
+  "main": "src/js/index.js",
+  "types": "types/datasportjs.d.ts",
   "scripts": {
+    "build": "tsc && babel src --out-dir dist",
+    "start": "node dist/js/SportradarAPI.js",
     "test": "test.js"
   },
   "keywords": [
@@ -32,5 +35,11 @@
     "axios": "^1.7.7",
     "axios-cookiejar-support": "^5.0.3",
     "tough-cookie": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "typescript": "^4.3.5"
   }
 }
