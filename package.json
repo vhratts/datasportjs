@@ -1,0 +1,32 @@
+{
+  "name": "datasportjs",
+  "version": "0.0.1",
+  "description": "Definitive lib for analyze and build bets",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "bet365",
+    "betano",
+    "1xbet",
+    "betfair",
+    "bwin",
+    "betclick",
+    "casino-portugal",
+    "lebull",
+    "betway",
+    "rivalo",
+    "tipbet",
+    "888sport",
+    "sportingbet"
+  ],
+  "author": "ratts13",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "axios-cookiejar-support": "^5.0.3",
+    "tough-cookie": "^5.0.0"
+  }
+}
