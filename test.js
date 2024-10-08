@@ -1,5 +1,4 @@
-import { sportData } from "radar-sport-api";
-import SportradarAPI from "./src/libs/SportRadar/SportradarAPI.js";
+import { SportradarAPI } from "./src/index.js";
 
 (async () => {
     var sportRadar = new SportradarAPI();

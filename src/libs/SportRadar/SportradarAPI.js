@@ -371,4 +371,6 @@ class SportradarAPI {
     }
 }
 
-export default SportradarAPI;
+export {
+    SportradarAPI
+};

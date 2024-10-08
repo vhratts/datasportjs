@@ -1,5 +1,5 @@
-import SportradarAPI from "./libs/SportRadar/SportradarAPI";
+import { SportradarAPI } from "./libs/SportRadar/SportradarAPI.js";
 
-export default {
+export {
     SportradarAPI
 }
