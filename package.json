@@ -1,6 +1,10 @@
 {
   "name": "datasportjs",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhratts/datasportjs.git"
+  },
   "description": "Definitive lib for analyze and build bets",
   "main": "src/index.js",
   "scripts": {
